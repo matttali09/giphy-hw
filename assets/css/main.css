@@ -1,0 +1,52 @@
+/* body styling */
+body {
+    padding: 2%;
+}
+
+/* buttons styling */
+
+button {
+    margin: 5px 2px;
+    background-color: blue;
+    color: white;
+}
+
+/* input styling */
+
+#input-location {
+    float: right;
+}
+
+/* image styling */
+/* #images-location {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 10px;
+} */
+#giphys {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 10px;
+}
+.container {
+    margin-top: 5%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+
+@media screen and (max-width: 895px) {
+    #input-location {
+        display: block;
+    }
+    #giphys {
+        display: block;
+    }
+    #input-location {
+        float: none;
+        text-align: center;
+    }
+}
