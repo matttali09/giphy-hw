@@ -36,6 +36,7 @@ button {
 img {
     height: 300px;
     width: 300px;
+    border: 1px solid black;
 }
 
 @media screen and (max-width: 895px) {
